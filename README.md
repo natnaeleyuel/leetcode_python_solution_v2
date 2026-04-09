@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2751-robot-collisions](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2751-robot-collisions) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3546-equal-sum-grid-partition-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3546-equal-sum-grid-partition-i) |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Matrix
 |  |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2075-decode-the-slanted-ciphertext](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2751-robot-collisions](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2751-robot-collisions) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3653-xor-after-range-multiplication-queries-i) |
 ## String
 |  |
 | ------- |
@@ -68,4 +70,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3661-maximum-walls-destroyed-by-robots) |
+## Divide and Conquer
+|  |
+| ------- |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3653-xor-after-range-multiplication-queries-i) |
 <!---LeetCode Topics End-->
