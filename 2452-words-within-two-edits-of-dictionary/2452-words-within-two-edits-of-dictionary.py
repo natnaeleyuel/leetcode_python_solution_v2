@@ -4,7 +4,6 @@ class Solution:
         res = []
 
         for q in queries:
-            found = False
             for d in dictionary:
                 df = 0
                 for i in range(n):
@@ -12,8 +11,8 @@ class Solution:
                         df += 1
                         if df > 2: break
             
-                found = found | (df <= 2)
-            
-            if found: res.append(q)
+                if df <= 2: 
+                    res.append(q)
+                    break
         
         return res
