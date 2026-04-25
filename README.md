@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0263-ugly-number](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0263-ugly-number) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 ## Simulation
