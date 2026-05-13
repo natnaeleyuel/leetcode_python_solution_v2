@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2553-separate-the-digits-in-an-array](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2553-separate-the-digits-in-an-array) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [3546-equal-sum-grid-partition-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3546-equal-sum-grid-partition-i) |
 ## Math
 |  |
@@ -70,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0874-walking-robot-simulation](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0874-walking-robot-simulation) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 ## Sorting
