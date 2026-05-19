@@ -9,13 +9,10 @@ class Solution:
         if nums1[-1] == nums2[0]:
             return nums2[0]
     
-        mp = defaultdict(int)
+        store = set(nums1)
 
-        for num in nums1:
-            mp[num] = 1
-        
         for num in nums2:
-            if mp[num] == 1:
+            if num in store:
                 return num
         
         return -1
