@@ -14,36 +14,31 @@ class Solution:
                     - prefix[i][j]
                 )
 
-        def get_sum(r1, c1, r2, c2):
-            return (
-                prefix[r2 + 1][c2 + 1]
-                - prefix[r1][c2 + 1]
-                - prefix[r2 + 1][c1]
-                + prefix[r1][c1]
-            )
+        def can(k):
+            for i in range(k, n + 1):
+                for j in range(k, m + 1):
 
-        ans = 0
-
-        for size in range(1, min(n, m) + 1):
-
-            found = False
-
-            for i in range(n - size + 1):
-                for j in range(m - size + 1):
-
-                    total = get_sum(
-                        i,
-                        j,
-                        i + size - 1,
-                        j + size - 1
+                    total = (
+                        prefix[i][j]
+                        - prefix[i - k][j]
+                        - prefix[i][j - k]
+                        + prefix[i - k][j - k]
                     )
 
                     if total <= threshold:
-                        ans = size
-                        found = True
-                        break
+                        return True
 
-                if found:
-                    break
+            return False
 
-        return ans
+        left = 0
+        right = min(n, m)
+
+        while left < right:
+            mid = (left + right + 1) // 2
+
+            if can(mid):
+                left = mid
+            else:
+                right = mid - 1
+
+        return left
