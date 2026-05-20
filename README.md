@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0134-gas-station](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0134-gas-station) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0396-rotate-function](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0396-rotate-function) |
@@ -164,5 +165,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0134-gas-station](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0134-gas-station) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 <!---LeetCode Topics End-->
