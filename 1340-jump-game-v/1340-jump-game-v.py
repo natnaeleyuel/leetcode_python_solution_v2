@@ -1,25 +1,25 @@
 class Solution:
     def maxJumps(self, arr: List[int], d: int) -> int:
-        seen = defaultdict(int)
         n = len(arr)
+        dp = [0] * n
 
-        def dfs(pos):
-            if pos in seen:
-                return
-            seen[pos] = 1
+        def dfs(i):
+            if dp[i]:
+                return dp[i]
 
-            i = pos - 1
-            while i >= 0 and pos - i <= d and arr[pos] > arr[i]:
-                dfs(i)
-                seen[pos] = max(seen[pos], seen[i] + 1)
-                i -= 1
-            i = pos + 1
-            while i < n and i - pos <= d and arr[pos] > arr[i]:
-                dfs(i)
-                seen[pos] = max(seen[pos], seen[i] + 1)
-                i += 1
+            ans = 1
 
-        for i in range(n):
-            dfs(i)
+            for j in range(i - 1, max(-1, i - d - 1), -1):
+                if arr[j] >= arr[i]:
+                    break
+                ans = max(ans, 1 + dfs(j))
 
-        return max(seen.values())
+            for j in range(i + 1, min(n, i + d + 1)):
+                if arr[j] >= arr[i]:
+                    break
+                ans = max(ans, 1 + dfs(j))
+
+            dp[i] = ans
+            return ans
+
+        return max(dfs(i) for i in range(n))
