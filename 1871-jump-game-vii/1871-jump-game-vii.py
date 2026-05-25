@@ -1,21 +1,21 @@
 class Solution:
     def canReach(self, s: str, minJump: int, maxJump: int) -> bool:
         n = len(s)
-        f = [0] * n
-        pre = [0] * n
-        f[0] = 1
+        q = deque([0])
+        far = 0
 
-        for i in range(minJump):
-            pre[i] = 1
+        while q:
+            i = q.popleft()
 
-        for i in range(minJump, n):
-            left = i - maxJump
-            right = i - minJump
+            start = max(i + minJump, far)
+            end = min(i + maxJump + 1, n)
 
-            if s[i] == "0":
-                total = pre[right] - (0 if left <= 0 else pre[left - 1])
-                f[i] = int(total != 0)
+            for j in range(start, end):
+                if s[j] == '0':
+                    if j == n - 1:
+                        return True
+                    q.append(j)
 
-            pre[i] = pre[i - 1] + f[i]
+            far = end
 
-        return bool(f[n - 1])
+        return n == 1
