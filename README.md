@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0010-regular-expression-matching) |
 | [0657-robot-return-to-origin](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0657-robot-return-to-origin) |
 | [1871-jump-game-vii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1871-jump-game-vii) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2075-decode-the-slanted-ciphertext) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0010-regular-expression-matching) |
 | [0396-rotate-function](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0396-rotate-function) |
 | [1340-jump-game-v](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1340-jump-game-v) |
 | [1871-jump-game-vii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1871-jump-game-vii) |
@@ -250,4 +252,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2196-create-binary-tree-from-descriptions](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2196-create-binary-tree-from-descriptions) |
+## Recursion
+|  |
+| ------- |
+| [0010-regular-expression-matching](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/0010-regular-expression-matching) |
 <!---LeetCode Topics End-->
