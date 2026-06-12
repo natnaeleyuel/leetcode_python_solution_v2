@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3469-find-minimum-cost-to-remove-array-elements](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
 | [3546-equal-sum-grid-partition-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3546-equal-sum-grid-partition-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3653-xor-after-range-multiplication-queries-i) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 ## Simulation
@@ -171,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1871-jump-game-vii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1871-jump-game-vii) |
 | [3469-find-minimum-cost-to-remove-array-elements](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3469-find-minimum-cost-to-remove-array-elements) |
 | [3472-longest-palindromic-subsequence-after-at-most-k-operations](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3472-longest-palindromic-subsequence-after-at-most-k-operations) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3751-total-waviness-of-numbers-in-range-i) |
@@ -202,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/1559-detect-cycles-in-2d-grid) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -241,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Sliding Window
 |  |
 | ------- |
@@ -259,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2196-create-binary-tree-from-descriptions](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/2196-create-binary-tree-from-descriptions) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/natnaeleyuel/leetcode_python_solution_v2/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Binary Tree
 |  |
 | ------- |
