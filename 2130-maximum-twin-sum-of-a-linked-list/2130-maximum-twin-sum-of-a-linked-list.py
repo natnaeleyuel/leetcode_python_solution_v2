@@ -5,23 +5,17 @@
 #         self.next = next
 class Solution:
     def pairSum(self, head: Optional[ListNode]) -> int:
-        n = 1
         node = head
+        store = []
 
         while node.next:
+            store.append(node.val)
             node = node.next
-            n += 1
-        
-        store = []
-        curr = head
 
-        for i in range(n):
-            if i <= (n / 2) - 1:
-                store.append(curr.val)
-            else:
-                store[abs(i+1-n)] += curr.val
+        store.append(node.val)
+        n = len(store)
 
-            if curr.next:
-                curr = curr.next
-        
+        for i in range((n//2), n):
+            store[abs(i+1-n)] += store[i]
+
         return max(store)
