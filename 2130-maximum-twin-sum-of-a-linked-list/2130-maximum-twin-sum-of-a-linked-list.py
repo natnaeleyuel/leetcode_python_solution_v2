@@ -12,19 +12,16 @@ class Solution:
             node = node.next
             n += 1
         
-        max_twin_sum = 0
         store = []
-
         curr = head
+
         for i in range(n):
             if i <= (n / 2) - 1:
                 store.append(curr.val)
             else:
-                j = abs(i+1-n)
-                store[j] += curr.val
-                max_twin_sum = max(max_twin_sum, store[j])
+                store[abs(i+1-n)] += curr.val
 
             if curr.next:
                 curr = curr.next
         
-        return max_twin_sum
+        return max(store)
