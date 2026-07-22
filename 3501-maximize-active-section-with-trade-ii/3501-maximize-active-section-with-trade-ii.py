@@ -4,9 +4,7 @@ class SparseTable:
         i, N = 1, len(self.st[0])
         while 2 * i <= N + 1:
             pre = self.st[-1]
-            self.st.append(
-                [max(pre[j], pre[j + i]) for j in range(N - 2 * i + 1)]
-            )
+            self.st.append([max(pre[j], pre[j + i]) for j in range(N - 2 * i + 1)])
             i <<= 1
 
     def query(self, begin: int, end: int):
@@ -17,9 +15,7 @@ class SparseTable:
 
 
 class Solution:
-    def maxActiveSectionsAfterTrade(
-        self, s: str, queries: List[List[int]]
-    ) -> List[int]:
+    def maxActiveSectionsAfterTrade(self, s: str, queries: List[List[int]]) -> List[int]:
         n = len(s)
         cnt1 = s.count("1")
 
@@ -40,9 +36,7 @@ class Solution:
                 blockRight.append(i - 1)
 
         m = len(zeroBlocks)
-        if (
-            m < 2
-        ):  
+        if m < 2:  
             return [cnt1] * len(queries)
 
         tmpSum = [zeroBlocks[i] + zeroBlocks[i + 1] for i in range(m - 1)]
@@ -57,13 +51,9 @@ class Solution:
                 res.append(cnt1)
                 continue
 
-            firstLen = (
-                blockRight[i] - max(blockLeft[i], l) + 1
-            )  
+            firstLen = (blockRight[i] - max(blockLeft[i], l) + 1)  
 
-            lastLen = (
-                min(blockRight[j], r) - blockLeft[j] + 1
-            ) 
+            lastLen = (min(blockRight[j], r) - blockLeft[j] + 1) 
 
             if i + 1 == j:
                 bestGain = firstLen + lastLen
